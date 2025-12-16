@@ -1,0 +1,52 @@
+name: listen_together_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  authentication: 
+    path: './packages/authentication'
+  spotify_api:
+    path: './packages/spotify_api'
+  websockets:
+     path: './packages/websockets'
+
+  cupertino_icons: ^1.0.2
+  http: ^1.0.0
+  shared_preferences: ^2.0.15
+  flutter_secure_storage: ^8.0.0
+  url_launcher: ^6.1.12
+  flutter_dotenv: ^5.1.0
+  web_socket_channel: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+      - .env
+      - assets/artworks/spotify_connect_page_art.png
+      - assets/icons/empty_profile_pic.png
+      - assets/icons/logo/ios.png
+      - assets/icons/music_icon.png
+      - assets/background/noise.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/logo/ios.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/icons/logo/android.png"

@@ -1,0 +1,38 @@
+{
+    "move_right": {
+      "trigger": "hold",
+      "binding": ["keyboard", [100]],
+      "mode": ["core"]
+    },
+    "move_left": {
+      "trigger": "hold",
+      "binding": ["keyboard", [97]],
+      "mode": ["core"]
+    },
+    "move_up": {
+      "trigger": "hold",
+      "binding": ["keyboard", [119]],
+      "mode": ["core"]
+    },
+    "move_down": {
+      "trigger": "hold",
+      "binding": ["keyboard", [115]],
+      "mode": ["core"]
+    },
+    "jump": {
+      "trigger": "press",
+      "binding": ["keyboard", [32]],
+      "mode": ["core"]
+    },
+    "glide": {
+      "trigger": "hold",
+      "binding": ["keyboard", [32]],
+      "mode": ["core"]
+    },
+    "ability_1": {
+        "trigger": "press",
+        "binding": ["keyboard", [101]],
+        "mode": ["core"]
+    }
+}
+

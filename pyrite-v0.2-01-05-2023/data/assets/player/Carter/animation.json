@@ -1,0 +1,37 @@
+{
+    "idle": {
+        "row": 0,
+        "frame_duration": 65,
+        "custom_length": []
+    },
+    "run": {
+        "row": 1,
+        "frame_duration": 15,
+        "custom_length": []
+    },
+    "jump": {
+        "row": 2,
+        "frame_duration": 30,
+        "custom_length": []
+    },
+    "fall": {
+        "row": 3,
+        "frame_duration": 30,
+        "custom_length": []
+    },
+    "land": {
+        "row": 4,
+        "frame_duration": 20,
+        "custom_length": []
+    },
+    "fly": {
+        "row": 5,
+        "frame_duration": 20,
+        "custom_length": []
+    },
+    "bite": {
+        "row": 6,
+        "frame_duration": 20,
+        "custom_length": []
+    }
+}

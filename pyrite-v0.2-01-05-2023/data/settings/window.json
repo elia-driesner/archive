@@ -1,0 +1,10 @@
+{
+    "bg-color":[28, 30, 45],
+    "wn-scale": [960, 520],
+    "wn-size": [960, 520],
+    "wn_scales": [[1920, 1080],  [960, 520]],
+    "fullscreen": false,
+    "show-fps": true,
+    "title": "Pyrite",
+    "use-gpu": true
+}

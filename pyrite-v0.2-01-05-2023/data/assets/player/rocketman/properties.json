@@ -1,0 +1,25 @@
+{
+    "name": "Vega",
+    "size": [16, 32],
+    "health": 100,
+    "animated": true,
+    "assets_path": "data/assets/player/rocketman/",
+    "movement": {
+        "speed": 100, 
+        "gravity": 0.9, 
+        "friction": -0.3, 
+        "jump_heigth": 17
+    },
+    "animations": {
+        "animation-rules": "animation.json",
+        "main": "player_sprite.png",
+        "frame_resolution": [16, 32],
+        "special": {
+            "wide-run": {
+                "image": "player_wide.png", 
+                "frame_duration": 20, 
+                "custom_length": [[1, 100]]
+                }
+            }
+    }
+}

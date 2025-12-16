@@ -1,0 +1,39 @@
+{
+    "name": "Light McSpeed",
+    "size": [42, 42],
+    "health": 100,
+    "animated": true,
+    "assets_path": "data/assets/player/LightMcSpeed/",
+    "movement": {
+        "speed": 9, 
+        "gravity": 0.9, 
+        "friction": -1, 
+        "jump_heigth": 17
+    },
+    "animations": {
+        "animation-rules": "animation.json",
+        "main": "sprite.png",
+        "frame_resolution": [16, 16],
+        "special": {
+            
+            }
+    },
+    "skins": {
+        "Standard": {},
+        "Business": {}
+    },
+    "colors": {
+        "Hut": {
+            "Standard": [[210, 0, 207]],
+            "Business": [[194, 20, 20]]
+        },
+        "Anzug": {
+            "Standard": [[250, 255, 111], [200, 204, 67]],
+            "Business": [[70, 70, 70], [36, 36, 36]]
+        },
+        "Krawatte": {
+            "Standard": [[210, 1, 207], [40, 8, 48]],
+            "Business": [[194, 20, 20], [194, 20, 20]]
+        }
+    }
+}

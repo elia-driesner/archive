@@ -1,0 +1,35 @@
+{
+    "name": "Donald",
+    "size": [42, 42],
+    "health": 100,
+    "animated": true,
+    "assets_path": "data/assets/player/donald/",
+    "movement": {
+        "speed": 9, 
+        "gravity": 0.9, 
+        "friction": -1, 
+        "jump_heigth": 20
+    },
+    "animations": {
+        "animation-rules": "animation.json",
+        "main": "sprite.png",
+        "frame_resolution": [16, 16],
+        "special": {
+            
+            }
+    },
+    "skins": {
+        "Standard": {}
+    },
+    "colors": {
+        "Haare": {
+            "Standard": [[210, 0, 207]]
+        },
+        "Herz": {
+            "Standard": [[250, 255, 111], [204, 195, 67]]
+        },
+        "Körper": {
+            "Standard": [[255, 208, 0], [254, 251, 31]]
+        }
+    }
+}

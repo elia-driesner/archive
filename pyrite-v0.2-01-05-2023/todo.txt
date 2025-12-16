@@ -1,0 +1,8 @@
+
+light
+
+flip image in every frame
+
+sound
+
+custom code for tiles
